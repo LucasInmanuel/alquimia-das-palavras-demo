@@ -1,0 +1,64 @@
+#img-openGrimorio {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+}
+
+#modal-grimorio {
+  display: none;
+  width: 70vw;
+  height: 90vh;
+  border: 5px solid #975a5e;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #453953;
+}
+
+#modal-grimorio h1 {
+  text-align: center;
+  height: 60px;
+  margin-top: 20px;
+  background-color: #975a5e;
+}
+
+#modal-grimorio > div {
+  display: flex;
+  padding: 20px;
+  height: calc(100% - 80px);
+}
+
+#dicio-pagLeft {
+  width: 50%;
+  background-color: #f3cba5;
+  margin-right: 10px;
+}
+
+#dicio-pagRight {
+  width: 50%;
+  background-color: #f3cba5;
+  margin-left: 10px;
+}
+
+#btn-closeGrimorio {
+  font-weight: bold;
+  background-color: #975a5e;
+  border-left: 2px solid #25161b;
+  border-bottom: 2px solid #25161b;
+  border-top: 0;
+  border-right: 0;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn-closeGrimorio:hover {
+  background-color: #f3cba5;
+}

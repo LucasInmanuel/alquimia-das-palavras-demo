@@ -1,0 +1,59 @@
+#menus {
+  width: 30%;
+  height: 100vh;
+  position: relative;
+  background-color: #453953;
+  border-left: 8px solid #975a5e;
+}
+
+#btns-modals {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+#area-crafting {
+  width: 100%;
+  height: 55%;
+  margin-top: 30px;
+  padding-top: 25px;
+  text-align: center;
+  background-color: #25161b;
+}
+
+#area-crafting h1 {
+  padding: 5px 0;
+  background-color: #975a5e;
+}
+
+#caldeirao {
+  margin-top: 15px;
+  user-select: none;
+}
+
+#barra-progresso {
+  width: 80%;
+  height: 20px;
+  margin: 0 auto;
+  border: 2px solid #975a5e;
+}
+
+#barra-progresso div {
+  width: 0;
+  height: 100%;
+  background-color: #453953;
+}
+
+.btn-menus {
+  background-color: #975a5e;
+  border: 2px solid #25161b;
+  border-radius: 8px;
+  padding: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-menus:hover {
+  background-color: #f3cba5;
+}

@@ -1,0 +1,17 @@
+@import "../fonts/OpenDyslexic-Regular.otf";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: OpenDyslexic, tahoma, sans-serif;
+}
+
+body {
+  background-color: black;
+  overflow-y: hidden;
+}
+
+#game {
+  display: flex;
+}

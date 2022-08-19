@@ -1,0 +1,40 @@
+#modal-armazem {
+  display: none;
+  width: 30vw;
+  height: 70vh;
+  border: 5px solid #975a5e;
+  position: absolute;
+  top: 2%;
+  left: 39%;
+  background-color: #453953;
+}
+
+#modal-armazem h1 {
+  text-align: center;
+}
+
+#armazem-itens {
+  padding: 0 10px;
+}
+
+#armazem-itens img {
+  width: 90px;
+  cursor: pointer;
+}
+
+#btn-closeArmazem {
+  font-weight: bold;
+  background-color: #975a5e;
+  border: 0;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#btn-closeArmazem:hover {
+  background-color: #f3cba5;
+}
