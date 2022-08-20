@@ -8,6 +8,7 @@ export default class Caldeirao {
     }
 
     crafting(dragItem) {
+
         this.insideCaldeirao.push(dragItem.id);
         var dropCaldeirao = document.getElementById("caldeirao");
 
@@ -24,6 +25,7 @@ export default class Caldeirao {
     }
 
     potionComprar(dropCaldeirao) {
+
         dropCaldeirao.setAttribute("src", "images/sprite-caldeirão/caldeirão-alecrim-alecrim.png");
 
         var barraProgress = document.querySelector("#barra-progresso div");
@@ -37,6 +39,7 @@ export default class Caldeirao {
             Armazem.add(potionsList().comprar);
 
         }, 2000);
+
     }
 
 }

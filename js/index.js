@@ -40,8 +40,8 @@ closeArmazem.parentElement.addEventListener("dragleave", (event) => {
     Armazem.showOrHide("hide");
   }
 });
-Armazem.add('<img id="alecrim" src="images/alecrim.png" title="Alecrim" />')
-Armazem.add('<img id="alecrim" src="images/alecrim.png" title="Alecrim" />')
+Armazem.add('<img id="revelador-simples" src="images/revelador-simples.png" title="Revelador Simples" />');
+Armazem.add('<img id="alecrim" src="images/alecrim.png" title="Alecrim" />');
 
 //GRIMORIO
 
